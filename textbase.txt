@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------|
+------------------------------------------------------------------------------------------          |
+--------------------------------------------------------------------------------                    |
+----------------------------------------------------------------------                              |
+------------------------------------------------------------                                        |
+--------------------------------------------------                                                  |
+----------------------------------------                                                            |
+------------------------------                                                                      |
+--------------------                                                                                |
+----------                                                                                          |
+----------------------------------------------------------------------------------------------------|
+asci              ciiartasciia  asciiartasciiartasciiartasciiartasciiartasciiartasciiartasciiartasci|
+iartasciia  asciiartasciiartas  iartasciiartasciiartasciiartasciiartasciiartasciiartasciiartasciiart|
+asciiartas  iartascii    sciia  asci  r  sciiar  sciiar  sciiar  sciiart    iarta  ii    s  iartas  |
+iartasciia  asciiartascii  tas  ia  asc  artasc  arta  ii  ta  ii  tasciiart  cii    sciia  asciia  |
+asciiartas  iartascii      iia    ciiar  sciiar  sc  artasc  artasc  art      rta  iiartas  iartas  |
+iartasciia  asciiar  scii  tas    rtasc  artasc  ar  sciiar  sciiar  s  iart  cii  tasciia  asciia  |
+    iartas  iartasc  arta  iia  as  iar  scii    sc  artasc  artasc  a  asci  rta  iiartas  iart    |
+    asciia  asciiarta    ar  s  iart  cii    sc  ar  sciiar  sciiar  sci    as  i  tasciiart    ia  |
+----------------------------------------------------------------------------------------------------|
+----------------------------------------------------------------------------------------------------|div background: #ffffff, #000000;id:#0;
+                                              たくまる                                              |h3 color: #aa80ed, #ffffff;
+                Home[https://takumaru1124.github.io/Website]                                        |a color: #333, #fff;
+                Blog[https://takumaru1124.github.io/Website/blog/blog.html]                         |a color: #333, #fff;
+                Build[https://takumaru1124.github.io/Website/Work/work.html]                        |a color: #333, #fff;
+                Files[https://takumaru1124.github.io/Website/file/file.html]                        |a color: #333, #fff;
+                Videos[https://takumaru1124.github.io/Website/Videos/videos]                        |a color: #333, #fff;
+                Radio[https://takumaru1124.github.io/Website/radio/]                                |a color: #333, #fff;
+                Tool[https://takumaru1124.github.io/Website/tool/]                                  |a color: #333, #fff; /div
+----------------------------------------------------------------------------------------------------|divbackground: #aa80ed, #aa80ed;id:#1;
+                                          たくまるWebsite                                           |h1 
+                               そこらへんにいる、何の変哲もない一般人                               |p 
+                                                                                                    |
+              詳しく[https://takumaru1124.github.io/Website/#2]                                     |a 
+              ブログへ[https://https://takumaru1124.github.io/Website/blog/blog.html]               |a 
+              配信動画[https://https://takumaru1124.github.io/Website/Videos/videos]                |a 
+              English[https://takumaru1124.github.io/Website/en-US/]                                |a 
+----------------------------------------------------------------------------------------------------|
