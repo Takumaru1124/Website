@@ -11,7 +11,22 @@
     <meta property="og:image" content="https://takumaru1124.github.io/Website/og.png">
     <script src="script.js"></script>
     <title>たくまる 公式ブログサイト</title>
+    <link rel="stylesheet" href="style.css"><!--
     <style>
+        /* Mini Display x0.75 */
+        @media (max-width: 360px) {
+           body {
+               zoom: 0.75;
+           }
+        }
+        /* Mini Display x0.825 */
+        @media (max-width: 480px) {
+        @media (min-width: 360px) {
+           body {
+               zoom: 0.825;
+           }
+        }
+        }
         /* Mobile1 */
         @media (max-width: 639px) {
 
@@ -28,11 +43,10 @@
                background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
                min-height: 100vh;
            }
-        
+
            header {
                background: rgba(255, 255, 255, 0.8);
                backdrop-filter: blur(10px);
-               position: fixed;
                width: 100%;
                top: 0;
                z-index: 1000;
@@ -75,6 +89,7 @@
         
            .hero {
                height: 125vh;
+               min-height: 670px !important;
                display: flex;
                align-items: center;
                justify-content: center;
@@ -89,7 +104,7 @@
            }
         
            .hero h1 {
-               font-size: 4rem;
+               font-size: 3rem;
                margin-bottom: 1rem;
            }
         
@@ -166,7 +181,7 @@
         
            .grid {
                display: grid;
-               grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+               grid-template-columns: repeat(auto-fit);
                gap: 3rem;
            }
 
@@ -347,6 +362,7 @@
         
            .hero {
                height: 117vh;
+               min-height: 500px !important;
                display: flex;
                align-items: center;
                justify-content: center;
@@ -627,6 +643,7 @@
         
            .hero {
                height: 100vh;
+               min-height: 500px !important;
                display: flex;
                align-items: center;
                justify-content: center;
@@ -907,6 +924,7 @@
         
            .hero {
                height: 100vh;
+               min-height: 500px !important;
                display: flex;
                align-items: center;
                justify-content: center;
@@ -1188,6 +1206,7 @@
         
            .hero {
                height: 100vh;
+               min-height: 750px !important;
                display: flex;
                align-items: center;
                justify-content: center;
@@ -1422,11 +1441,11 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 0.5rem;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <!-- <h4>メンテナンス中です。現在アクセスできません。(404 not found)</h4> -->
-         <h4>ウェブサイト更新中です。現在アクセスできません。</h4>
+    <!-- <h4>ウェブサイト更新中です。現在アクセスできません。</h4> -->
     <!-- <h4>震度7の地震が発生しました。地震情報のみ閲覧が可能です。</h4>
          <p>震源：<br>
             最大震度：<br>
@@ -1434,18 +1453,19 @@
             深さ：<br>
             津波： -->
     <!-- <h4>このページはもう利用できません。</h4> -->
-    <!--
+
+
     <header>
             <div class="navm">
                 <div class="logo">たくまる</div>
                 <div class="nav-links">
-                    <a href="./index.html">Home</a>
+                    <a href="./">Home</a>
                     <a href="./blog/blog.html">Blog</a>
                     <a href="./Work/work.html">Build</a>
                     <a href="./file/file.html">Files</a>
                     <a href="./Videos/videos.html">Videos</a>
-                    <a href="./radio/index.html">Radio</a>
-                    <a href="./tool/index.html">Tool</a>
+                    <a href="./radio/">Radio</a>
+                    <a href="./tool/">Tool</a>
                 </div>
             </div>
     </header>
@@ -1471,10 +1491,9 @@
             <div class="card">
                 <h3>プロフィール</h3>
                 <p>たくまる<br>
-                23歳<br>
                 男<br>
                 GID<br>
-                もとはScratcher、YouTuber、さらにはTwitterrer(?)</p>
+                もとはScratcher、YouTuber、ツイッタラー</p>
             </div>
             <div class="card">
                 <h3>特技</h3>
@@ -1535,8 +1554,8 @@
             <a href="./blog/blog.html"    >🔗ブログ</a><br>
             <a href="./file/file.html"    >🔗ファイル</a><br>
             <a href="./Videos/videos.html">🔗ビデオ</a><br>
-            <a href="./radio/index.html"  >🔗ラジオ</a><br>
-            <a href="./tool/index.html"   >🔗ツール</a><br>
+            <a href="./radio/"  >🔗ラジオ</a><br>
+            <a href="./tool/"   >🔗ツール</a><br>
 
             </p>
         </div>
@@ -1554,7 +1573,7 @@
 
     <footer>
         <p>&copy; 2026 Takumaru . All Rights Reserved.<br>
-           026s31 Ver1.0<br>
+           026s32 Ver1.0<br>
            リリース履歴は<a href="./release/release.html">こちら</a></p>
           <img src="https://views-counter.vercel.app/badge?pageId=takumaru1124.github.io/Website&leftColor=101010&rightColor=aa80ed" alt="Views">
     </footer>
@@ -1572,6 +1591,6 @@
                 }
             });
         });
-    </script> -->
+    </script>
 </body>
 </html>
